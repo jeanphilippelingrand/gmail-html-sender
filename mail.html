@@ -1,0 +1,539 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <title>Dans la zone de surveillance avec Erdem</title>
+  <style type="text/css">
+
+  /**
+   * Reset CSS
+   */
+
+    #outlook a{padding:0}.ExternalClass{width:100%}.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%}p{margin:0;padding:0;font-size:0px;line-height:0px}table td{border-collapse:collapse}table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}
+
+  /**
+   * Fonts
+   */
+
+    @font-face{font-family:'Favorit SSENSE Inter';src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Inter.eot');src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Inter.eot?#iefix') format('embedded-opentype'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Inter.woff2') format('woff2'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Inter.woff') format('woff')}
+    @font-face{font-family:'Favorit SSENSE Regular';src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Regular.eot');src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Regular.eot?#iefix') format('embedded-opentype'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Regular.woff2') format('woff2'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1504879826/web/fonts/favorit-times/FavoritSSENSE-Regular.woff') format('woff')}
+
+          /* We use two extra fonts for English/french: plain and JHA Times Now */
+      @font-face{font-family:'plain';src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-medium_2-webfont_n5fmjs.eot');src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-medium_2-webfont_n5fmjs.eot?#iefix') format('embedded-opentype'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-medium_2-webfont_e7m8nc.woff2') format('woff2'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-medium_2-webfont_pvoklw.woff') format('woff'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-medium_2-webfont_lqmofs.ttf') format('truetype');font-weight:bold;font-style:normal}
+      @font-face{font-family:'plain';src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-regular_2-webfont_ata73x.eot');src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-regular_2-webfont_ata73x.eot?#iefix') format('embedded-opentype'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-regular_2-webfont_yavkem.woff2') format('woff2'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-regular_2-webfont_zxu14u.woff') format('woff'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1453312962/plain-regular_2-webfont_jmeheh.ttf') format('truetype');font-weight:normal;font-style:normal}
+      @font-face{font-family:'JHA Times Now';src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1493055756/web/fonts/favorit-times/TimesNow-SemiLight.eot');src:url('https://res.cloudinary.com/ssenseweb/raw/upload/v1493055756/web/fonts/favorit-times/TimesNow-SemiLight.eot?#iefix') format('embedded-opentype'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1493055756/web/fonts/favorit-times/TimesNow-SemiLight.woff2') format('woff2'), url('https://res.cloudinary.com/ssenseweb/raw/upload/v1493055756/web/fonts/favorit-times/TimesNow-SemiLight.woff') format('woff')}
+          
+  /**
+   * General
+   */
+
+    html,body { color:#000000; }
+
+    .main-wrapper { width:600px; }
+    .main-wrapper-inner { padding:20px; }
+
+    .title-image { height:auto; max-width:100%; width:500px; }
+    .full-width-image { height:auto; max-width:100%; width:100%; }
+
+    .title { color:#000000; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:32px; font-weight:bold; line-height:36px; max-width:480px; text-align:center; }
+    .title.small { font-size:23px; line-height:27px; padding:0 10px; }
+    .text { color:#000000; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:12px; line-height:16px; margin:0 auto; max-width:500px; text-align:center; }
+    .text p { color:#000000; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:12px; line-height:16px; margin:0 20px; }
+    .text-narrow { margin:0 auto; max-width:360px; text-align:center; }
+    .text-narrow p { margin:0 auto; max-width:360px; text-align:center; }
+    .cta { color:#000000; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:20px; line-height:24px; text-align:center; }
+    .cta p { color:#000000; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:20px; line-height:24px; text-align:center; }
+    .cta a { text-decoration:none !important; }
+
+    .text-black { color:#000000; }
+    .text-white { color:#ffffff; }
+    .text-white p {color:#ffffff; }
+    .text-white a { color:#ffffff; text-decoration:underline; }
+
+    .show-on-desktop { height:auto; max-height:none; overflow:visible; }
+    .show-on-mobile { height:0px; max-height:0px; overflow:hidden; }
+
+    a { color:#000000; text-decoration:none; }
+    img { vertical-align:top; }
+
+  /**
+   * Header
+   */
+
+    .header { font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:12px; font-weight:bold; line-height:20px; }
+    .header-menu-line { float:left; margin-bottom:7px; }
+    .header-menu-item { padding:0 10px; }
+
+  /**
+   * Footer
+   */
+
+    .footer { font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:12px; font-weight:bold; line-height:16px; }
+    .footer-menu-item { padding:0 10px; }
+    .footer-text { text-align:center; }
+    .footer-text p { color:#808080; font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:9px; line-height:13px; margin-bottom:13px; }
+    .footer-text a { color:#808080; }
+
+  /**
+   * CTA
+   */
+
+    .call-to-action { border:4px solid #000; width:580px; }
+    .call-to-action-inner { padding:60px; }
+
+  /**
+   * Theme Pick
+   */
+
+    .theme-pick-label { font-family:'Favorit SSENSE Inter','JHA Times Now','plain',Times,sans-serif; font-size:9px; font-weight:bold; line-height:12px; }
+    .theme-pick-link { color:#808080; }
+
+  /**
+   * Responsive Large
+   */
+
+    @media only screen and (min-width: 820px) {
+      .main-wrapper { width: 800px !important; }
+      .editorial-items-container { width:780px !important;}
+      .editorial-column { display:block !important; width:780px !important; }
+      .editorial-inner-column { width:380px !important; margin-bottom:26px; }
+    }
+
+  /**
+   * Responsive Mobile
+   */
+
+    @media only screen and (max-width: 640px) {
+      .main-wrapper { width:100% !important; }
+      .main-wrapper-inner { padding:10px !important; width:100% !important; }
+
+      .title { font-size:20px !important; line-height:24px !important; max-width:300px !important; }
+      .title.small { font-size:18px !important; line-height:22px !important; }
+
+      .text { max-width:300px !important; }
+      .cta {font-size:16px; }
+
+      .title-image { height:auto !important; width:300px !important; }
+      .full-width-image { height:auto !important; width:300px !important; }
+
+      .tr-show-on-desktop { display:none !important; }
+      .tr-show-on-mobile { display:table-row !important; }
+      .show-on-desktop { height:0px !important; max-height:0px !important; overflow:hidden !important; }
+      .show-on-mobile { height:auto !important; max-height:none !important; overflow:visible !important; }
+
+      .header { font-size:11px !important; }
+      .header-menu-line { float:none !important; }
+      .header-menu-item { padding:0 2px !important; }
+
+      .footer { font-size:11px !important; }
+      .footer-menu-item { padding:0 2px !important; }
+
+      .call-to-action { width:100% !important; }
+      .call-to-action-inner { padding:40px; }
+
+      .full-looks-column { display:block !important; width:280px !important; }
+      .full-looks-spacer { display:block !important; height:40px !important; }
+
+      .theme-pick-items-container { width:280px !important; }
+      .theme-pick-column { display:block !important; width:280px !important; }
+      .theme-pick-spacer { display:none !important; }
+
+      .editorial-items-container { width:280px !important; }
+      .editorial-column { display:block !important; width:280px !important; }
+      .editorial-inner-column { display:block !important; width:280px !important; margin-bottom:26px; }
+      .editorial-inner-spacer { display:none !important; }
+    }
+
+  /**
+   * Constructed
+   */
+
+                      
+      /**
+       * Mono Brand (Off Model)
+       */
+
+        
+        #content-item-0 {
+          height: 533px !important;
+          width: 600px !important;
+        }
+
+        @media only screen and (min-width: 820px) {
+          #content-item-0 {
+            height: 675px !important;
+            width: 760px !important;
+          }
+        }
+
+        @media only screen and (max-width: 640px) {
+          #content-item-0 {
+            height: 266px !important;
+            width: 300px !important;
+          }
+        }
+
+      /** / **/
+
+                                                                                                    
+  /** / **/
+
+  </style>
+</head>
+<body style="width:100%; margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+<!-- Snippet -->
+<span style="color:#ffffff; font-size:1px;"><p>Épatez les observateurs.</p>
+</span>
+<!-- / -->
+<!-- Body Wrapper -->
+  <table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0; width:100%; line-height:100% !important;">
+    <tr>
+      <td valign="top">
+        <table cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr>
+            <td valign="top">
+              <table class="main-wrapper" cellpadding="0" cellspacing="0" border="0" align="center">
+                <tr>
+                  <td class="main-wrapper-inner" align="center" valign="top" style="font-family:'Favorit SSENSE Inter','JHA Times Now','plainmedium',Times,sans-serif; vertical-align:top;">
+<!-- Main Content Starts Here -->
+  <!-- Header -->
+    <table class="header" cellpadding="0" cellspacing="0" border="0" width="100%">
+      <tr>
+        <td align="center">
+                                        <span class="header-menu-item"><a href="https://www.ssense.com/fr/femmes?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Nouveautés</a></span>
+                              <span class="header-menu-item"><a href="https://www.ssense.com/fr/panier?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Panier</a></span>
+                              <span class="header-menu-item"><a href="https://www.ssense.com/fr/compte/mes-favoris?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Mes favoris</a></span>
+                            <div class="div-hide-on-mobile"></div>
+                                        <span class="header-menu-item"><a href="https://www.ssense.com/fr/femmes/vetements?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Vêtements</a></span>
+                              <span class="header-menu-item"><a href="https://www.ssense.com/fr/femmes/chaussures?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Chaussures</a></span>
+                              <span class="header-menu-item"><a href="https://www.ssense.com/fr/femmes/sacs?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Sacs</a></span>
+                              <span class="header-menu-item"><a href="https://www.ssense.com/fr/femmes/accessoires?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Accessoires</a></span>
+                            <div class="div-hide-on-mobile"></div>
+                  </td>
+      </tr>
+      <tr>
+        <td height="37">
+
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a href="http://www.ssense.com/fr?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+            <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1506003185/SSENSE_-reg_logo_sm_aozdff.jpg" height="auto" width="105" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td height="60">
+
+        </td>
+      </tr>
+    </table>
+  <!-- / -->
+    <!-- Content -->
+                                                          <!-- Mono Brand (Off Model) -->
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+      <a href="https://www.ssense.com/fr/femmes/designers/erdem?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+        <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1537894501/Erdem_tvzv60.png" class="title-image" alt="Erdem" title="Erdem" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td height="49">
+
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.ssense.com/fr/femmes/designers/erdem?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+        <img id="content-item-0" src="http://res.cloudinary.com/ssenseweb/image/upload/h_675,w_760/v1537894485/Erdem_Female_Shoot2_02_jqqey4.jpg"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td height="56">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <div class="text text-narrow">
+                <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Épatez les observateurs.&quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-51]C[2]">Épatez les observateurs.</span></p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="20">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cta">
+                <a href="https://www.ssense.com/fr/femmes/designers/erdem?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Voir la collection</a>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="80">
+
+    </td>
+  </tr>
+</table>
+
+<!-- / -->
+                                        <!-- Full Looks -->
+
+<table id="content-item-1" class="section full-looks" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+              <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1537894551/Vision-panoptique_y38ahv.png" class="title-image" alt="Vision panoptique" title="Vision panoptique" />
+          </td>
+  </tr>
+  <tr>
+    <td height="50">
+      
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td class="full-looks-column" align="center" valign="top">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <a href="https://www.ssense.com/fr-fr/groupes_de_produits/panopticon_look_1?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+              <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1537894480/Panopticon-Look-1_yi6g3f.jpg" class="full-width-image" alt="Panopticon Look 1" title="Panopticon Look 1" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="32">
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="text text-narrow">
+              <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Attention terriens, veuillez livrer vos astuces pour superposer magistralement une jupe, un col roulé et un trench coat A.W.A.K.E. avec une pince à cheveux Simone Rocha et des accessoires en cuir MM6 Martin Maison Margiela et Comme des Garçons Comme des Garçons…n&quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:[null,0],&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-51]C[2]"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Si Big Brother vous observe, autant lui en mettre plein la vue avec cet ensemble embossé façon serpent Kwaidan Editions, complété par un col roulé de la marque, des bottes à talons hauts Gianvito Rossi et des boucles d'oreilles Lemaire...&quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-51]C[2]">Si Big Brother vous observe, autant lui en mettre plein la vue avec cet ensemble embossé façon serpent <a href="https://www.ssense.com/fr/femmes/designers/kwaidan-editions?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Kwaidan Editions</span></a>, complété par un col roulé de la marque, des bottes à talons hauts<a href="https://www.ssense.com/fr/femmes/designers/gianvito-rossi?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;"> Gianvito Rossi</span></a> et des boucles d&#8217;oreilles <a href="https://www.ssense.com/fr/femmes/designers/lemaire?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Lemaire</span></a>&#8230;</span><br />
+</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td height="32">
+            
+          </td>
+        </tr>
+        <tr>
+          <td class="cta">
+            <a href="https://www.ssense.com/fr-fr/groupes_de_produits/panopticon_look_1?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Voir la sélection</a>
+          </td>
+        </tr>
+        <tr class="tr-show-on-mobile">
+          <td height="32">
+            
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td class="full-looks-spacer" width="20">
+      
+    </td>
+    <td class="full-looks-column" align="center" valign="top">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <a href="https://www.ssense.com/fr-fr/groupes_de_produits/panopticon_look_1?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+              <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1537894480/Panopticon-Look-2_nqqzjp.jpg" class="full-width-image" alt="Panopticon Look 2" title="Panopticon Look 2" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="32">
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="text text-narrow">
+              <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;n...Alors que ce look entièrement signé par Proenza Schouler se distingue sans contredit de la masse. n&quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:[null,0],&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-52]C[2]"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;...ou combinez des chaussures à talons hauts Gianvito Rossi et des boucles d'oreilles Erdem avec un costume de la marque, dont l'hypnotique motif dégradé pourrait brouiller le signal des caméras de sécurité.&quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-52]C[2]">&#8230;ou combinez des chaussures à talons hauts <a href="https://www.ssense.com/fr/femmes/designers/gianvito-rossi?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Gianvito Rossi</span></a> et des boucles d&#8217;oreilles <a href="https://www.ssense.com/fr/femmes/designers/erdem?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Erdem</span></a> avec un costume de la marque, dont l&#8217;hypnotique motif dégradé pourrait brouiller le signal des caméras de sécurité.</span><br />
+</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td height="32">
+            
+          </td>
+        </tr>
+        <tr>
+          <td class="cta">
+            <a href="https://www.ssense.com/fr-fr/groupes_de_produits/panopticon_look_1?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Voir la sélection</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>                </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="80">
+      
+    </td>
+  </tr>
+</table>
+
+<!-- / -->                                                                                                          <!-- New Arrivals -->
+
+<table class="section new-arrivals" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+      <a href="https://www.ssense.com/fr/femmes/trench-coat?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">        <img src="http://res.cloudinary.com/ssenseweb/image/upload/v1537894502/Incognito-_ow8nfs.png" class="title-image" alt="Incognito" title="Incognito" />
+      </a>    </td>
+  </tr>
+  <tr>
+    <td height="32">
+      
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <div class="text">
+        <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Consultez en toute discrétion les archives de Gucci, Lemaire et Tibi. &quot;}" data-sheets-userformat="{&quot;2&quot;:13123,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:[null,2,15720416],&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-formula="='Women Copy Writing / Translation'!R[-53]C[2]">Consultez en toute discrétion les archives de<a href="https://www.ssense.com/fr/femmes/designers/gucci?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;"> Gucci</span></a>, <a href="https://www.ssense.com/fr/femmes/designers/lemaire?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Lemaire</span></a> et <a href="https://www.ssense.com/fr/femmes/designers/tibi?utm_source=ssense&amp;utm_medium=email&amp;utm_campaign=collection&amp;utm_term=fr_erdem_w_18_09_26"><span style="text-decoration: underline;">Tibi</span></a>. </span></p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+          </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="80">
+      
+    </td>
+  </tr>
+</table>
+
+<!-- / -->                                  <!-- CTA -->
+
+<table class="section call-to-action" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" class="call-to-action-inner">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <div class="text">
+              <a href="https://www.ssense.com/fr/femmes?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+                <p>Livraison gratuite dans le monde entier</p>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td height="14">
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cta">
+              <a href="https://www.ssense.com/fr/femmes?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">
+                <p>Voir Femmes</p>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="80">
+
+    </td>
+  </tr>
+</table>
+
+<!-- / -->
+                                                                            <!-- / -->
+  <!-- Footer -->
+    <table class="footer" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center">
+          <span class="footer-menu-item"><a href="?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank"></a></span>
+                      <span class="footer-menu-item"><a href="https://www.ssense.com/fr/assistance-a-la-clientele?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Service à la clientèle</a></span>
+                      <span class="footer-menu-item"><a href="https://www.ssense.com/fr/compte/courriels?log_rq/euid=*|EMAIL_UID|*?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26" target="_blank">Préférences courriel</a></span>
+                  </td>
+      </tr>
+      <tr>
+        <td height="20">
+
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a href="https://www.facebook.com/SSENSEofficial/?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26"><img src="http://res.cloudinary.com/ssenseweb/image/upload/v1453312655/social-facebook_ylobc8.png" height="16" width="30" /></a>
+          <a href="https://twitter.com/SSENSE/?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26"><img src="http://res.cloudinary.com/ssenseweb/image/upload/v1453312656/social-twitter_jjktb1.png" height="16" width="30" /></a>
+          <a href="https://www.instagram.com/ssense/?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26"><img src="http://res.cloudinary.com/ssenseweb/image/upload/v1453312654/social-instagram_yyysgz.png" height="16" width="30" /></a>
+          <a href="https://www.youtube.com/user/ssense/?utm_source=ssense&utm_medium=email&utm_campaign=collection&utm_term=erdem_w_18_09_26"><img src="http://res.cloudinary.com/ssenseweb/image/upload/v1453312656/social-youtube_efwela.png" height="16" width="30" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td height="20">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="footer-text">
+            <p>Copyright © 2018 <a href="http://www.ssense.com/fr?utm_source=ssense&amp;utm_medium=email" target="_blank">ssense.com</a>. Tous droits réservés.<br />
+<a href="https://www.ssense.com/fr-fr/politique-de-confidentialite?utm_source=ssense&amp;utm_medium=email" target="_blank">Politique de confidentialité</a><br />
+<a href="https://www.ssense.com/fr-fr/conditions?utm_source=ssense&amp;utm_medium=email" target="_blank">Conditions</a></p>
+<p>Veuillez rajouter <span style="text-decoration: underline;"><a href="mailto:newsletters@ssense.com">newsletters@ssense.com</a></span> à vos contacts pour vous assurer que l&#8217;infolettre vous parvienne.<br />
+Si vous ne désirez plus recevoir notre infolettre, veuillez vous <span style="text-decoration: underline;"><a href="*|UNSUB|*" target="_blank">désinscrire</a></span>.<br />
+*|LIST:ADDRESS|*</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td height="37">
+
+        </td>
+      </tr>
+    </table>
+  <!-- / -->
+<!-- Main Content Ends Here -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- Body Wrapper Ends Here -->
+<!-- Gmail Hack -->
+<div style="display: none; white-space: nowrap; font-family:Courier,monospace; line-height: 0; color: #ffffff;">
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</div>
+<!-- / -->
+</body>
+</html>
