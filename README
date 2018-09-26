@@ -1,0 +1,9 @@
+This script allows to send an html email through smtp with a gmail account 
+it's using gmail-send https://github.com/alykoshin/gmail-send
+
+to use it:
+1. edit the config.js file
+	- copy paste the config-example.js to config.js and edit the values
+	- the default file path for the html file is mail.html but you can specify another one
+2. create your html file, name it mail.html and put is at the root of the folder
+3. yarn run start

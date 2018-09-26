@@ -1,16 +1,6 @@
-const sender = require('emailSender.js');
+const fs = require('fs');
+// const params = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+const params = require('./config')
+const service = require('./service');
 
-const emailConfig = {
-  user: '<your gmail email address>',
-  pass: '<your gmail application password>',
-  to:   '<the recipient email address>',
-  subject: '<the subject'
-}
-const filePath = "<the html file path here>"
-
-const params = {
-  filePath: filePath,
-  email: emailConfig
-}
-
-sender(params);
+service.readAndSend(params);

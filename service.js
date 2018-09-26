@@ -29,18 +29,27 @@ const readFile = function(path){
   })
 }
 
-module.exports = function(params) {
+module.exports.readAndSend = function(params) {
+
+  console.log('read html and send starting');
+
   let emailData = {};
   Object.assign(emailData, params.email);
 
-  const filePath = params.filePath
-
+  let filePath = params.filePath
+  
+  if(!filePath){
+    filePath = 'mail.html';
+  }
+  
   readFile(filePath).then(html => {
-    
+  
+    console.log('file read succeeded');
+
     emailData.html = html;
     
-    Send(emailData).then(result => {
-      console.log('The email has been sent: ', result)
+    Send(emailData).then(() => {
+      console.log('The email has been sent')
     }).catch(err => {
       console.error('error trying to send the email ', err)
     });
@@ -48,5 +57,5 @@ module.exports = function(params) {
   }).catch(err => {
     console.error('error trying to read file ', err)
   });
-  
+
 }
